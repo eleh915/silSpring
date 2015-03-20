@@ -20,7 +20,6 @@ a{
     margin: 0 auto;
 }
 h1 {
-    padding-right: 40px;
     margin: 10px;
     text-align: center;
     font: 100 55px/1.5 Didot;
@@ -29,7 +28,7 @@ h1 {
     color: #009966;
     text-decoration-color: transparent;
 }
-a.garb:link { text-decoration: none; } 
+a.homepage:link { text-decoration: none; } 
 h1 span{
     display:block;
 	font-size: 14px;
@@ -37,6 +36,7 @@ h1 span{
 	color:#009966;
 	padding-top:10px;
 }
+
 /* Header Style */
 .header{
 	font-family:'Arial Narrow', Arial, sans-serif;
@@ -69,7 +69,7 @@ h1 span{
 	display: inline;
 }
 
-
+/* Links on top of page */
 .tags {
     margin: 0 auto;
     margin-bottom: 30px;
@@ -105,6 +105,25 @@ a.three {
 }
 a.three:hover{color: #009966;}
 
+/* Subpages: culprits, solutions, author */
+.different-killers p {
+	text-align: center;
+	color: #009966;
+	font-size: 16px;
+}
+
+.different-killers p2 {
+	font-family: 'Monda', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+/*	padding-right: 20px;
+	padding-left: 20px; */
+	display: inline-block;
+	margin: 10px;
+}
+
+/* Inside homepage boxes */
 .view {
    width: 300px;
    height: 200px;
@@ -137,8 +156,8 @@ a.three:hover{color: #009966;}
    color: #fff;
    text-align: center;
    position: relative;
-   font-size: 17px;
-   padding: 10px;
+   font-size: 14px;
+   padding: 5px;
    background: rgba(0, 0, 0, 0.8);
    margin: 20px 0 0 0;
    font-family: 'Monda', sans-serif;
@@ -149,7 +168,7 @@ a.three:hover{color: #009966;}
    font-size: 12px;
    position: relative;
    color: #fff;
-   padding: 10px 20px 20px;
+   padding: 5px 10px 10px;
    text-align: center;
 }
 .view a.info {
